@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --project my-lib && ng build --project sample-application",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -18,7 +18,10 @@
     "@angular/platform-browser": "^14.1.0",
     "@angular/platform-browser-dynamic": "^14.1.0",
     "@angular/router": "^14.1.0",
+    "@ngx-translate/core": "^14.0.0",
     "rxjs": "~7.5.0",
+    "stream-chat": "^8.1.0",
+    "stream-chat-angular": "^4.10.1",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },

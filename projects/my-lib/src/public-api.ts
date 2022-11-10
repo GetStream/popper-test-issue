@@ -3,5 +3,7 @@
  */
 
 export * from './lib/my-lib.service';
-export * from './lib/my-lib.component';
-export * from './lib/my-lib.module';
+export * from './lib/chat/chat.component';
+export * from './lib/chat.module';
+export * from './lib/support.module';
+export * from './lib/support-tickets/support-tickets.component';
